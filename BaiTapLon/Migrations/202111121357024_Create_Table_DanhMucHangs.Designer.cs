@@ -7,13 +7,13 @@ namespace BaiTapLon.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Account : IMigrationMetadata
+    public sealed partial class Create_Table_DanhMucHangs : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Account));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Create_Table_DanhMucHangs));
         
         string IMigrationMetadata.Id
         {
-            get { return "202105171655285_Account"; }
+            get { return "202111121357024_Create_Table_DanhMucHangs"; }
         }
         
         string IMigrationMetadata.Source

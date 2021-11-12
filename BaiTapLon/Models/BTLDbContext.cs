@@ -24,7 +24,6 @@ namespace BaiTapLon.Models
         public virtual DbSet<KhachHang> KhachHangs { get; set; }
         public virtual DbSet<DanhMucHang> DanhMucHangs { get; set; }
         public virtual DbSet<Account> Accounts { get; set; }
-        public virtual DbSet<DonHang> DonHang { get; set; }
         public virtual DbSet<Phieunhap> Phieunhap { get; set; }
         public virtual DbSet<Phieuxuat> Phieuxuat { get; set; }
         public virtual DbSet<Dondathang> Dondathangs { get; set; }
