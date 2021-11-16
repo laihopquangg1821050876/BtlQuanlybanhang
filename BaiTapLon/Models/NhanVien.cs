@@ -17,6 +17,7 @@ namespace BaiTapLon.Models
         public string SoDienThoai { get; set; }
         [AllowHtml]
         public string DiaChi { get; set; }
+        
 
 
     }
